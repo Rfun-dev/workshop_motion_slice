@@ -1,3 +1,3 @@
 # Workshop Motion Slice
 
-I want to share a project that I have done to complite the Intership Motion assignment
+I want to share a project that I have done to complete the Intership Motion assignment
