@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MotionSGDay3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_wakey">Wakey</string>
+    <string name="label_selector_title">Let’s get connected to wakey for healthy lifestyle</string>
+    <string name="desc_selector">Explore the most elegant way of achieving your morning routine let’s build a healthy life.</string>
+    <string name="label_signin">Signin</string>
+    <string name="label_signup">Signup</string>
+    <string name="label_hii_there">Hii There!!</string>
+    <string name="hint_enter_username">Enter Username</string>
+    <string name="hint_password">Password</string>
+    <string name="label_dont_have_an_account_signup">Dont have an account?</string>
+    <string name="splash_image">splash image</string>
+    <string name="or">or</string>
+    <string name="label_subtitle_login">Welcome back you’ve been missed!</string>
+    <string name="label_recover_password">Recover Password?</string>
+    <string name="label_signing_up_you_agree"><![CDATA[By signing up you agree to Terms & conditions of Wakey app.]]></string>
+    <string name="label_welcome_to_wakey_one_stop_solution">Welcome to wakey one stop solution for healthy life</string>
+    <string name="label_hint_email">Email</string>
+    <string name="label_google">google</string>
+    <string name="label_facebook">facebook</string>
+    <string name="label_apple">apple</string>
+    <string name="label_back">back</string>
+    <string name="label_homepage">Homepage</string>
+    <string name="label_already_have_an_account">Already have an account?</string>
+</resources>

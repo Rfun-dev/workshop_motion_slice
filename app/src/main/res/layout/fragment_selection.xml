@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".SelectionFragment">
+
+    <ImageView
+        android:id="@+id/iv_selector"
+        android:layout_width="@dimen/width_343dp"
+        android:layout_height="@dimen/height_340dp"
+        android:src="@drawable/img_selector"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/margin_56dp"/>
+
+    <TextView
+        android:id="@+id/tv_selector_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="@dimen/margin_72dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/label_selector_title"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.Wakey.BodyLarge.Bold"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_selector" />
+
+    <TextView
+        android:id="@+id/tv_selector_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desc_selector"
+        android:textAppearance="@style/TextAppearance.Wakey.BodyMedium.Regular"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/margin_32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_selector_title"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_selector_description">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_signup"
+            android:layout_width="@dimen/width_170dp"
+            android:layout_height="@dimen/height_56dp"
+            android:text="@string/label_signup"
+            android:layout_marginStart="-16dp"
+            android:textAppearance="@style/TextAppearance.Wakey.LabelMedium.Bold"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@id/btn_signin"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_grey"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_signin"
+            android:layout_width="@dimen/width_170dp"
+            android:layout_height="@dimen/height_56dp"
+            android:text="@string/label_signin"
+            android:textAppearance="@style/TextAppearance.Wakey.LabelMedium.Bold"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_button_gradient"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
